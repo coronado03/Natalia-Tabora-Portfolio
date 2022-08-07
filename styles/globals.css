@@ -2,6 +2,77 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: tinyRegular;
+    src: url('../public/font/tiny (1)/tiny.ttf');
+}
+
+
+@font-face {
+    font-family: romenaBlack;
+    src: url('../public/font/ROMENA/Fontspring-DEMO-romena-black.otf');
+}
+
+@font-face {
+    font-family: romenaMedium;
+    src: url('../public/font/ROMENA/Fontspring-DEMO-romena-medium.otf');
+}
+
+  @font-face {
+    font-family: romenaBold;
+    src: url('../public/font/ROMENA/Fontspring-DEMO-romena-bold.otf');
+}
+
+
+@font-face {
+    font-family: romenaLight;
+    src: url('../public/font/ROMENA/Fontspring-DEMO-romena-light.otf');
+}
+
+@font-face {
+    font-family: depixElillegible;
+    src: url('../public/font/DePixel/depixelillegible.otf')
+}
+
+@font-face {
+    font-family: depixelklein;
+    src: url('../public/font/DePixel/depixelklein.otf')
+}
+
+.tinyRegular {
+    font-family: tiny;
+}
+
+.romenaBlack {
+    font-family: romenaBlack;
+}
+
+.romenaBold {
+    font-family: romenaBold;
+}
+
+.romenaMedium {
+    font-family: romenaMedium;
+}
+
+.romenaLight {
+    font-family: romenaLight;
+}
+
+.depixElillegible {
+    font-family: depixElillegible;
+}
+
+.depixelKlein {
+    font-family: depixelklein;
+}
+
+
+
 .landing-background {
     background-image: url('../public/landing/background.png');
+}
+
+.contact-background {
+    background-image: url('../public/contact/BACKGROUND PAPER.png')
 }

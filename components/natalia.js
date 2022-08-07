@@ -1,4 +1,8 @@
+import { useParallax } from "react-scroll-parallax";
+import React, { useRef } from "react";
+
 export default function Natalia() {
+
     return (  
       <>
         <div className="bg-[#000001] grid w-full h-screen">
@@ -17,7 +21,7 @@ export default function Natalia() {
 
                         <div className="absolute right-14 bottom-4">
                             <img
-                            className="max-h-[510px]"
+                            className="max-h-[510px] min-h-[50px]"
                             src='/natalia/natalia.png'
                             alt='me!'/>
 
@@ -25,7 +29,7 @@ export default function Natalia() {
 
                         <div className="absolute left-[85px] top-36">
                             <img
-                            className="max-h-[130px]"
+                            className="max-h-[130px] min-h-[50px]"
                             src='/natalia/natalianame.png'
                             alt='my name!'/>
 
@@ -33,17 +37,7 @@ export default function Natalia() {
 
                     </div>
 
-            
-            
-            
             </div>
-
-
-
-
-
-            
-            
 
         </div>
       </>
